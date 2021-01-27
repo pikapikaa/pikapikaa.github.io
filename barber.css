@@ -1,0 +1,99 @@
+/* Сеточные стили */
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    border: 4px solid skyblue;
+}
+
+.main-header {
+    margin-bottom: 75px;
+
+    /* временно */
+    min-height: 285px;
+    border: 4px solid royalblue;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* временно */
+    min-height: 285px;
+    border: 4px solid gold;
+}
+
+.main-header-logo {
+    width: 368px;
+    height: 153px;
+    order: 2;
+
+    /* временно */
+    border: 4px solid fuchsia;
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 60px;    
+
+    /* временно */
+    min-height: 70px;
+    border: 4px solid red;
+}
+
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    width: 620px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    /* временно */
+    min-height: 70px;
+    border: 4px solid forestgreen;
+}
+
+.user-navigation {
+    width: 140px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    /* временно */
+    min-height: 70px;
+    border: 4px solid black;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    /* временно */
+    min-height: 170px;
+    border: 4px solid hotpink;
+}
+
+.feature-item {
+    width: 300px;
+
+    min-height: 170px;
+    border: 4px solid lightseagreen;
+}
